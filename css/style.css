@@ -1,0 +1,437 @@
+:root{--main-blue:#011627;--main-yellow:#ff9f1c;--main-red:#d1021c;--darker-blue:#000e19}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E9ecf4;
+    color: black;
+    font-family: sans-serif;
+}
+
+/*Header*/
+.blueSection{
+    background-color:black;
+}
+.header{
+    height:65vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.header-content{
+    width:75%;
+    height:80%;
+    display:flex;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.header-child{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center
+}
+
+.header-left-child{
+    margin:0
+}
+.name{
+    font-family:Exo, sans-serif;
+    color:var(--main-red);
+    font-size:8.3vmin;
+    padding-bottom: 0.3em;
+    font-weight:1000; 
+}
+.speciality{
+    font-family:sans-serif;
+    color:#fff;
+    font-size:4vmin;
+    font-weight:600; 
+    padding-bottom: 1.5%;
+}
+.speciality1{
+    font-family: Exo, sans-serif;
+    color:#fff;
+    font-size:4vmin;
+    font-weight:300;
+    padding-bottom: 1.5%;
+    font-style: italic;
+}
+.email{
+    font-family:sans-serif;color:#fff;font-size:4vmin;font-weight:300; padding-bottom: 1.5%;}
+
+.email a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.phone{
+    font-family:Exo,sans-serif;color:#fff;font-size:4vmin;font-weight:300;
+    
+}
+
+
+.phoneHover:hover{
+    text-decoration: underline;
+}
+.phone a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+.header-child-right{
+    display:flex;align-items:center}
+#profile-picture{width:38vmin;border-radius:100%}
+/*media*/
+
+@media (min-width:1001px) and (max-width:1200px){
+    .name{font-size:6vmin}
+    .speciality{font-size:3vmin}
+    .speciality1{font-size:3vmin}
+    .email{font-size:3vmin}
+    .phone{font-size:3vmin}
+    #profile-picture{width:36vmin}
+}
+@media (min-width:831px) and (max-width:1000px){
+    .name{font-size:6vmin}
+    .speciality{font-size:3vmin}
+    .speciality1{font-size:3vmin}
+    .email{font-size:3vmin}
+    .phone{font-size:3vmin}
+    #profile-picture{width:34vmin}
+    
+}
+
+@media (max-width:830px){
+    .name{font-size:6vmin}
+    .speciality{font-size:3vmin}
+    .speciality1{font-size:3vmin}
+    .email{font-size:3vmin}
+    .phone{font-size:3vmin}
+    #profile-picture{width:30vmin}
+    .header{
+        height:60vh;
+    }
+}
+@media (max-width:500px){
+    .header{
+        height:55vh;
+    }
+}
+
+
+
+/*media*/
+
+
+/*Header*/
+.About{
+    width: 90%;
+    background-color: white;
+    margin: 1% auto 4% auto;
+}
+
+.sectionHeader{
+    background-color: #12203E;
+    color: white;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    font-size: 3.2vmin;
+   
+}
+
+.aboutContent{
+    padding: 2% 4% 2% 4%;
+    font-size: 3vmin;
+    font-weight: 900;
+    text-align: justify;
+    line-height: 170%;
+}
+.bullet{
+    color: #12203E ;
+}
+
+.Education{
+    width: 90%;
+    background-color: white;
+    margin: auto auto 4% auto
+}
+
+.greenBackground{
+    background-color: seagreen;
+}
+
+.educationContent{
+    padding: 2%;
+    font-size: 3vmin;
+    text-align: center;
+}
+.educationPlace{
+    font-size: 5vmin;
+    font-weight: 600;
+}
+.educationPlaceContent{
+    font-size: 4.8vmin;
+    
+}
+.Skills{
+    width: 90%;
+    background-color: white;
+    margin: auto auto 4% auto;
+}
+.orangeBackground{
+    background-color: #FD784D;
+}
+.skillsContent{
+    padding: 4% 2% 2% 2%;
+    font-size: 3vmin;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-auto-flow:column;
+}
+.skillsGroupName{
+    color: #FD784D;
+    font-size: 5.8vmin;
+    padding-bottom: 2%;
+    font-weight: 800;
+}
+.skills-Content{
+    display: flex;
+}
+.skill{
+    width: 60%;
+    text-align: center;
+    font-size: 5vmin;
+    padding: 2% 2% 2% 0;
+    display: flex;
+    justify-content: center;
+    margin: auto auto auto 0;
+}
+@media (max-width:768px) {
+    .skill{
+        font-size: 3vmin;
+    }
+}
+.barra{
+    width: 40%;
+    display: flex;
+    margin: auto auto auto 0;
+}
+/*barritas*/
+progress {
+    -webkit-appearance: none;
+    width: 100%;
+    padding-right: 10%;
+  }
+  
+  ::-webkit-progress-bar {
+     background-color: #AAAAAA;
+     color: white;
+  }
+  ::-webkit-progress-value{
+    background-color: #FD784D;
+  
+  }
+/*seccion 2 de skills*/
+.skillsContent2{
+    padding: 2% 2% 4% 2%;
+    font-size: 3vmin;
+    text-align: center;
+}
+
+.languageName{
+    font-size: 5vmin;
+    font-weight: 600;
+}
+.languageContent{
+    font-size: 3.4vmin
+}
+
+.Experience{
+    width: 90%;
+    background-color: white;
+    margin: auto auto 4% auto;
+}
+.redBackground{
+    background-color: 9B1A06;
+}
+
+.experienceContent{
+    padding: 2%;
+    font-size: 3vmin;
+    text-align: center;
+}
+.companyName{
+    color:9B1A06 ;
+    font-size: 5.8vmin;
+    padding-bottom: 1.2%;
+    font-weight: 600;
+}
+.companyPuesto{
+    font-size: 4.5vmin;
+    
+}
+.companyDescription{
+    font-size: 4vmin;
+}
+
+.Extra{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+}
+.extraContent{
+    padding: 4% 2% 0 2%;
+    font-size: 3vmin;
+}
+.extraContentH1{
+    font-size: 5.8vmin;
+    color: seagreen;
+    font-weight: 600;
+}
+.certificateGroup{
+    padding: 2% 0 2% 0;
+}
+.certificate{
+    padding: 1em 5% 1em 2.2%;
+    font-size: 3.5vmin;
+    font-weight: 600;
+}
+.rigthCertificate{
+    padding: 1em 5% 1em 2.2%;
+    font-size: 3.5vmin;
+    padding-left: 0;
+}
+  
+@media (max-width:768px) {
+    .certificate{
+        font-size: 3vmin;
+    }
+    .rigthCertificate{
+        font-size: 3vmin;
+    }
+}
+/*   padding: 1.5rem 1.3rem 1.5rem 1rem;*/
+.rigthCertificate{
+    padding-left: 0;
+}
+  
+.capacitacion{
+    padding-bottom:2%;
+    font-size: 3.5vmin;
+}
+.extraContent-content{
+    padding-bottom: 2%;
+}
+.certificateGroup1{
+    padding: 2% 0 2% 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(6, auto);
+    grid-auto-flow:column;
+}
+@media (max-width:768px) {
+    .Extra{
+        width: 100%;
+    }
+    .Experience{
+        width: 100%;
+    }
+    .Skills{
+        width: 100%;
+    }
+    
+    .Education{
+    width: 100%;
+    }
+    .About{
+        width: 100%;
+    }
+
+}
+/*navBar*/
+#navBar{
+    height:12vh;
+    width:100%;
+    background-color:--main-blue;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    z-index:1;
+    position: sticky;
+    top:0;
+}
+.buttonContainer{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    text-align:center
+}
+
+.headButton{
+    text-decoration:none;
+    color: #F2F3F3;
+    font-family:'Segoe UI',sans-serif;
+    font-size:3.2vmin;
+    font-weight:700;
+    transition:color .1s linear;
+}
+.headButton:hover{
+    color:var(--main-red)
+}
+.anchor{
+    height:12vh;
+    background-color: #E9ecf4;
+    margin-top:-12vh;
+    visibility:hidden;
+}
+@media (max-width:768px){
+    .headButton{
+        font-size:2.5vmin
+    }
+    #navBar{
+        height:8vh;
+       
+    }
+    .anchor{
+        height:8vh;
+        background-color: #E9ecf4;
+        margin-top:-8vh;
+        visibility:hidden;
+    }
+}
+
+.redTitle{color:var(--main-red)}
+.whiteColor{
+    color: white;
+    
+}
+
+.linkedlin{
+    /* background-color: #666666; */
+    background-color:#666666;
+    text-decoration: none;
+    color: white;
+    border-radius: 0.15em;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* letter-spacing: 10px; */
+    font-weight: 700;
+    font-family: Segoe UI;
+    text-align: right;
+    align-items: center;
+    transition:background-color .1s linear;
+}
+
+.linkedlin:hover{
+    background-color: #0077B4;
+}
