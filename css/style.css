@@ -135,8 +135,9 @@ body {
 .About{
     width: 90%;
     background-color: white;
-    margin: 1% auto 4% auto;
+    margin: 1% auto 2% auto;
 }
+
 
 .sectionHeader{
     background-color: #12203E;
@@ -161,7 +162,7 @@ body {
 .Education{
     width: 90%;
     background-color: white;
-    margin: auto auto 4% auto
+    margin: auto auto 2% auto;
 }
 
 .greenBackground{
@@ -184,7 +185,7 @@ body {
 .Skills{
     width: 90%;
     background-color: white;
-    margin: auto auto 4% auto;
+    margin: auto auto 2% auto;
 }
 .orangeBackground{
     background-color: #FD784D;
@@ -259,7 +260,7 @@ progress {
 .Experience{
     width: 90%;
     background-color: white;
-    margin: auto auto 4% auto;
+    margin: auto auto 2% auto;
 }
 .redBackground{
     background-color: 9B1A06;
@@ -288,6 +289,7 @@ progress {
     width: 90%;
     background-color: white;
     margin: auto;
+    margin-bottom: 2%;
 }
 .extraContent{
     padding: 4% 2% 0 2%;
@@ -360,7 +362,7 @@ progress {
 }
 /*navBar*/
 #navBar{
-    height:12vh;
+    height:10vh;
     width:100%;
     background-color:--main-blue;
     display:flex;
@@ -389,9 +391,9 @@ progress {
     color:var(--main-red)
 }
 .anchor{
-    height:12vh;
+    height:10vh;
     background-color: #E9ecf4;
-    margin-top:-12vh;
+    margin-top:-10vh;
     visibility:hidden;
 }
 @media (max-width:768px){
@@ -434,4 +436,8 @@ progress {
 
 .linkedlin:hover{
     background-color: #0077B4;
+}
+
+.shadow {
+    box-shadow: 0 0.6vmin 2vmin 0.8vmin rgba(0,0,0,0.2);
 }
