@@ -21,7 +21,7 @@ body {
     width:100%;
     display:flex;
     justify-content:center;
-    align-items:center
+    align-items:center;
 }
 .header-content{
     width:75%;
@@ -44,7 +44,7 @@ body {
 .name{
     font-family:Exo, sans-serif;
     color:var(--main-red);
-    font-size: 8.9vmin;
+    font-size: 8.52vmin;
     padding-bottom: 0.35em;
     font-weight:1000; 
     line-height: 1.05;
@@ -213,7 +213,7 @@ body {
 .skill{
     width: 60%;
     text-align: center;
-    font-size: 5vmin;
+    font-size: 4vmin;
     padding: 2% 2% 2% 0;
     display: flex;
     justify-content: center;
