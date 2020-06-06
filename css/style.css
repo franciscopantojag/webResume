@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
 }
 
+
 body {
     background-color: var(--main-skyBlue);
     color: black;
@@ -440,4 +441,7 @@ progress {
 
 .shadow {
     box-shadow: 0 0.6vmin 2vmin 0.8vmin rgba(0,0,0,0.2);
+}
+.redTitle{
+    color: var(--main-red)
 }
