@@ -300,9 +300,10 @@ progress {
     font-size: 3vmin;
 }
 .extraContentH1{
-    font-size: 5.8vmin;
+    font-size: 4.8vmin;
     color: seagreen;
     font-weight: 600;
+    text-align: center;
 }
 .certificateGroup{
     padding: 2% 0 2% 0;
@@ -313,9 +314,10 @@ progress {
     font-weight: 600;
 }
 .rigthCertificate{
-    padding: 1em 5% 1em 2.2%;
+    padding: 1em 0 1em 2.2%;
     font-size: 3.5vmin;
     padding-left: 0;
+    display: inline;
 }
   
 @media (max-width:768px) {
@@ -334,6 +336,7 @@ progress {
 .capacitacion{
     padding-bottom:2%;
     font-size: 3.5vmin;
+    text-align: center;
 }
 .extraContent-content{
     padding-bottom: 2%;
