@@ -342,7 +342,7 @@ progress {
     padding-bottom: 2%;
 }
 .certificateGroup1{
-    padding: 2% 0 2% 0;
+    padding: 2% 8vmin;
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(6, auto);
@@ -364,6 +364,9 @@ progress {
     }
     .About{
         width: 100%;
+    }
+    .certificateGroup1{
+        padding: 2% 2vmin;
     }
 
 }
