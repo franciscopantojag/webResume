@@ -451,3 +451,13 @@ progress {
 .redTitle{
     color: var(--main-red)
 }
+.fas{
+    color: rgb(163, 160, 160);
+    margin-right: 2%;
+}
+.fa-phone{
+    margin-right: 0;
+}
+.fa-download{
+    margin-right: 0;
+}
