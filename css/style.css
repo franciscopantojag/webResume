@@ -427,7 +427,7 @@ progress {
 
 .linkedlin{
     /* background-color: #666666; */
-    background-color:#666666;
+    background-color:rgb(163, 160, 160);
     text-decoration: none;
     color: white;
     border-radius: 0.15em;
@@ -451,13 +451,13 @@ progress {
 .redTitle{
     color: var(--main-red)
 }
-.fas{
-    color: rgb(163, 160, 160);
+.fas, .fab, .far{
+   color: rgb(163, 160, 160);
+}
+.fa-linkedin:hover{
+    color: #0077B4;
+    transition:color .1s linear;
+}
+.fa-envelope{
     margin-right: 2%;
-}
-.fa-phone{
-    margin-right: 0;
-}
-.fa-download{
-    margin-right: 0;
 }
