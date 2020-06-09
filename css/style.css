@@ -53,14 +53,14 @@ body {
 
 }
 .speciality{
-    font-family:sans-serif;
+    font-family:Exo, sans-serif;
     color:#fff;
     font-size:4vmin;
     font-weight:600; 
     padding-bottom: 1.5%;
 }
 .speciality1{
-    font-family: Exo, sans-serif;
+    font-family: sans-serif;
     color:#fff;
     font-size:4vmin;
     font-weight:300;
@@ -444,6 +444,10 @@ progress {
 }
 .fa-linkedin:hover{
     color: #0077B4;
-    transition:color .1s linear;
+    transition:color .2s linear;
+}
+.fa-file-pdf:hover{
+    color: var(--main-red);
+    transition:color .2s linear;
 }
 
