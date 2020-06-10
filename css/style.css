@@ -1,4 +1,4 @@
-:root{--main-red:#d1021c;--main-skyBlue: #E9ecf4}
+:root{--main-red:#d1021c;--main-skyBlue: #fafafa}
 
 * {
     margin: 0;
@@ -154,6 +154,8 @@ body {
     text-align: center;
     padding: 1% 0 1% 0;
     font-size: 3.2vmin;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
    
 }
 
@@ -369,6 +371,10 @@ progress {
     .certificateGroup1{
         padding: 2% 2vmin;
     }
+    .sectionHeader{
+        border-radius: 0;
+       
+    }
 
 }
 /*navBar*/
@@ -431,6 +437,12 @@ progress {
 
 .shadow {
     box-shadow: 0 0.6vmin 2vmin 0.8vmin rgba(0,0,0,0.2);
+    border-radius: 1rem;
+}
+@media (max-width:768px){
+    .shadow{
+        border-radius: 0;
+    }
 }
 .redTitle{
     color: var(--main-red)
