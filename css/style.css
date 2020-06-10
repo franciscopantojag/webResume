@@ -226,11 +226,7 @@ body {
     justify-content: center;
     margin: auto auto auto 0;
 }
-@media (max-width:900px) {
-    .skill{
-        font-size: 3vmin;
-    }
-}
+
 .barra{
     width: 40%;
     display: flex;
