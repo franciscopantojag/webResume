@@ -153,7 +153,7 @@ body {
     color: white;
     text-align: center;
     padding: 1% 0 1% 0;
-    font-size: 4vmin;
+    font-size: 3.5vmin;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
    
@@ -212,7 +212,7 @@ body {
 }
 .skillsGroupName{
     color: #FD784D;
-    font-size: 5.8vmin;
+    font-size: 4.8vmin;
     padding-bottom: 2%;
     font-weight: 800;
 }
@@ -256,7 +256,7 @@ progress {
 }
 
 .languageName{
-    font-size: 5vmin;
+    font-size: 4vmin;
     font-weight: 600;
 }
 .languageContent{
@@ -279,7 +279,7 @@ progress {
 }
 .companyName{
     color: 9B1A06 ;
-    font-size: 5.8vmin;
+    font-size: 5vmin;
     padding-bottom: 1%;
     font-weight: 600;
 }
