@@ -153,7 +153,7 @@ body {
     color: white;
     text-align: center;
     padding: 1% 0 1% 0;
-    font-size: 3.2vmin;
+    font-size: 4vmin;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
    
@@ -202,7 +202,7 @@ body {
     background-color: #FD784D;
 }
 .skillsContent{
-    padding: 4% 2% 2% 2%;
+    padding: 2% 6%;
     font-size: 3vmin;
     text-align: center;
     display: grid;
@@ -220,7 +220,7 @@ body {
     display: flex;
 }
 .skill{
-    width: 60%;
+    width: 75%;
     text-align: center;
     font-size: 4vmin;
     padding: 2% 2% 2% 0;
@@ -230,7 +230,7 @@ body {
 }
 
 .barra{
-    width: 40%;
+    width: 25%;
     display: flex;
     margin: auto auto auto 0;
 }
@@ -238,7 +238,6 @@ body {
 progress {
     -webkit-appearance: none;
     width: 100%;
-    padding-right: 10%;
   }
   
   ::-webkit-progress-bar {
@@ -274,22 +273,24 @@ progress {
 }
 
 .experienceContent{
-    padding: 2%;
+    padding: 2.5% 0;
     font-size: 3vmin;
     text-align: center;
 }
 .companyName{
-    color:9B1A06 ;
+    color: 9B1A06 ;
     font-size: 5.8vmin;
-    padding-bottom: 1.2%;
+    padding-bottom: 1%;
     font-weight: 600;
 }
 .companyPuesto{
     font-size: 4.5vmin;
-    
+    font-weight: 600;
+    padding-bottom: 0.5%;
 }
 .companyDescription{
-    font-size: 4vmin;
+    font-size: 3.6vmin;
+    
 }
 
 .Extra{
