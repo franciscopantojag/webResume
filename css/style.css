@@ -156,8 +156,8 @@ body {
     background-color: #12203E;
     color: white;
     text-align: center;
-    padding: 1% 0 1% 0;
-    font-size: 3.5vmin;
+    padding: 1%  0;
+    font-size: 3.3vmin;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
    
@@ -181,20 +181,20 @@ body {
 }
 
 .greenBackground{
-    background-color: seagreen;
+    background-color: rgb(3, 78, 35);
 }
 
 .educationContent{
-    padding: 2%;
+    padding: 0 1%;
     font-size: 3vmin;
     text-align: center;
 }
 .educationPlace{
-    font-size: 5vmin;
+    font-size: 4.3vmin;
     font-weight: 600;
 }
 .educationPlaceContent{
-    font-size: 4.8vmin;
+    font-size: 4vmin;
     
 }
 .Skills{
@@ -203,10 +203,11 @@ body {
     margin: auto auto 2% auto;
 }
 .orangeBackground{
-    background-color: #FD784D;
+    background-color: #d6772a;
 }
 .skillsContent{
     padding: 2% 8%;
+    padding-bottom: 0.2%;
     font-size: 3vmin;
     text-align: center;
     display: grid;
@@ -215,28 +216,25 @@ body {
     grid-auto-flow:column;
 }
 .skillsGroupName{
-    color: #FD784D;
-    font-size: 4.8vmin;
-    padding-bottom: 2%;
+    color: #d6772a;
+    font-size: 4.6vmin;
+    padding: 1%;
     font-weight: 800;
 }
 .skills-Content{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .skill{
-    width: 75%;
-    text-align: center;
-    font-size: 4vmin;
-    padding: 2%;
-    display: flex;
-    justify-content: center;
-    margin: auto auto auto 0;
+    width: 50%;
+    font-size: 3.8vmin;
+    padding: 1.5%;
 }
 
 .barra{
-    width: 25%;
-    display: flex;
-    margin: auto auto auto 0;
+    width: 30%;
+    
 }
 /*barritas*/
 progress {
@@ -245,18 +243,22 @@ progress {
   }
   
   ::-webkit-progress-bar {
-     background-color: #AAAAAA;
+     background-color: #fafafa;
      color: white;
+     border: 1px solid #d6772a;
   }
   ::-webkit-progress-value{
-    background-color: #FD784D;
+    background-color: #d6772a;
   
   }
 /*seccion 2 de skills*/
+.prev{
+    padding-bottom: 0.8%;
+}
 .skillsContent2{
-    padding: 2% 2% 4% 2%;
     font-size: 3vmin;
     text-align: center;
+    padding: 0 8% 3% 8%;
 }
 
 .languageName{
@@ -277,7 +279,7 @@ progress {
 }
 
 .experienceContent{
-    padding: 2.5% 0;
+    padding: 4% 1%;
     font-size: 3vmin;
     text-align: center;
 }
@@ -347,7 +349,7 @@ progress {
     text-align: center;
 }
 .extraContent-content{
-    padding-bottom: 2%;
+    padding: 0 5% 2% 5%;
 }
 .certificateGroup1{
     padding: 2% 8vmin;
