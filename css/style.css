@@ -474,4 +474,11 @@ progress {
 }
 .opac{
     opacity: 0.8;
+    margin: 0 0.4%;
+}
+.fa-github{
+    transition: opacity .2s linear;
+}
+.fa-github:hover{
+    opacity: 1;
 }
