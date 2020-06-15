@@ -159,12 +159,14 @@ header{
     font-family:'Segoe UI',sans-serif;
     font-size:3.2vmin;
     font-weight:700;
-    transition:color 0.3s ease, opacity 0.5s ease;
-    animation: 2s appear ease;
+    transition: opacity 0.3s ease;
+    animation: 0.5s appear ease;
     opacity: 1;
 }
 .headButton:hover{
-    color:var(--main-red)
+    color:var(--main-red);
+    opacity: 1;
+    transition: all 0.3s;
 }
 @media (max-width:790px){
     .headButton{
@@ -482,6 +484,9 @@ header{
 .transSlideFromRight{
     animation: 2s slideFromRight ease;
 }
+.transSlideFromBottom{
+    animation: 1s slideFromBottom ease;
+}
 .trans{
     transition: opacity 2s ease;
 }
@@ -493,9 +498,8 @@ header{
     opacity:0.8;
 }
 .redColor{
-    color: var(--main-red)
+    color: var(--main-red);
 }
 .paddingTop{
     padding-top: 1.5%;
 }
-
