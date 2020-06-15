@@ -24,9 +24,19 @@ const extraCard = document.getElementById("extra")
 const viewportHeight =  (window.innerHeight || document.documentElement.clientHeight)
 const viewportWidth = (window.innerWidth || document.documentElement.clientWidth)
 
+const navBarButtom = document.getElementsByClassName("headButton")
+
 const fun = () =>{
     aboutHeaderTitle.classList.remove("opac")
     aboutContent.classList.remove("opac")
+    for(let i=0;i<navBarButtom.length;i++){
+        navBarButtom[i].className="headButton"
+    }
+    if(header.getBoundingClientRect().top>=0){
+        for(let i=0;i<navBarButtom.length;i++){
+            navBarButtom[i].className="headButton navBarOpac"
+        }
+    }
     if(header.getBoundingClientRect().top>=0){
         aboutHeaderTitle.classList.add("opac")
         aboutContent.classList.add("opac")
