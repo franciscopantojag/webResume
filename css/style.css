@@ -159,7 +159,7 @@ header{
     font-family:'Segoe UI',sans-serif;
     font-size:3.2vmin;
     font-weight:700;
-    transition:color 0.3s ease, opacity 2s ease;
+    transition:color 0.3s ease, opacity 0.5s ease;
     animation: 2s appear ease;
     opacity: 1;
 }
