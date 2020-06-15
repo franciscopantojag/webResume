@@ -1,232 +1,211 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Francisco Pantoja Resume</title>
-        <link href="https://fonts.googleapis.com/css?family=Exo:400,500i,700,800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel='stylesheet' href='css/style.css'/>
-        <script defer src="js/action.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Nunito:wght@800&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/d3e286adf7.js" crossorigin="anonymous"></script>
+        <script defer src="./js/index.js"></script>
+        <title>Francisco Pantoja Resume</title>
     </head>
     <body>
-        <section id="Header">
-            <div class="blueSection header">
-                <div class="header-content">
-        
-                <div class="header-child">
-                    <h1 class="header-left-child name">FRANCISCO PANTOJA GUILLÉN</h1>
-                    <h2 class="header-left-child speciality">Egresado de Ingeniería Industrial y de Sistemas en Universidad de Piura (UDEP)</h2>
+        <header class="blackBack">
+            <div class="header-content">
+                <div id="header-child-left" class="header-child">
+                    <h1 class="header-left-child name">FRANCISCO<br> PANTOJA GUILLÉN</h1>
+                    <h2 class="header-left-child speciality">Bachiller en Ingeniería Industrial y de Sistemas <br> (UDEP)</h2>
                     <h2 class="header-left-child speciality1"> Tecnologías de Información </h2>
-                    <h2 class="header-left-child email"><a href="mailto: franciscopantojag98@gmail.com"  class="phoneHover">franciscopantojag98@gmail.com</a>  </h2>
+                    <h2 class="header-left-child email"><a href="mailto: franciscopantojag98@gmail.com">franciscopantojag98@gmail.com</a></h2>
                     <h2 class="header-left-child phone"> 
-                        <i class="fas fa-phone opac"></i> (+51) 957606630 |
-                        <a href="https://linkedin.com/in/francisco-pantoja-guillen-071370190" target="_blank"><i class="fab fa-linkedin opac"></i></a>
-                        
-                        <a href="pdf/francisco_pantoja_cv.pdf"><i class="far fa-file-pdf opac"></i></a>
-                        
-                        <a href="https://github.com/franciscopantojag"><i class="fab fa-github opac"></i></a>
+                        <i class="fas fa-phone"></i> (+51) 957606630 |
+                        <a href="https://linkedin.com/in/francisco-pantoja-guillen-071370190" target="_blank"><i class="fab fa-linkedin icon "></i></a>                                
+                        <a href="https://github.com/franciscopantojag"><i class="fab fa-github icon "></i></a>
+                        <a href="pdf/francisco_pantoja_cv.pdf"><i class="far fa-file-pdf  icon"></i></a>      
                     </h2>
-                    
                 </div>
-        
                 <div class="header-child header-child-right">
-                    <img src="img/profile.jpg" alt="profile-picture" id="profile-picture"></img>
-        
-                </div>
+                    <img src="img/profile.jpg" alt="profile-picture" id="profile-picture">
                 </div>
             </div>
-        </section>
-        <div class="blueSection" id="navBar">
-      
-            <div class="buttonContainer">
-              <a class="headButton" id="aboutLink" href="#aboutAnchor">RESUMEN</a>
-            </div>
-            <div class="buttonContainer">
-              <a class="headButton" id="educationLink" href="#educationAnchor">EDUCACIÓN</a>
-            </div>
-            <div class="buttonContainer">
-              <a class="headButton" id="skillsLink" href="#skillsAnchor">HABILIDADES</a>
-            </div>
-            <div class="buttonContainer">
-              <a class="headButton" id="experienceLink" href="#experienceAnchor">EXPERIENCIA</a>
-            </div>
-            <div class="buttonContainer">
-              <a class="headButton" id="extraLink" href="#extraAnchor">EXTRA</a>
-            </div>
-      
-          </div>
-        <section id="Resumen">
+        </header>
+        <nav class="blackBack" id="navBar">
+            <ul class="navLinks">
+                <li class="buttonContainer"><a class="headButton" id="aboutLink" href="#aboutAnchor">RESUMEN</a></li>
+                <li class="buttonContainer"><a class="headButton" id="educationLink" href="#educationAnchor">EDUCACIÓN</a></li>
+                <li class="buttonContainer"><a class="headButton" id="skillsLink" href="#skillsAnchor">HABILIDADES</a></li>
+                <li class="buttonContainer"><a class="headButton" id="experienceLink" href="#experienceAnchor">EXPERIENCIA</a></li>
+                <li class="buttonContainer"><a class="headButton" id="extraLink" href="#extraAnchor">EXTRA</a></li>
+            </ul>
+        </nav>
+        <section class="allSec">
             <div class="anchor" id="aboutAnchor"></div>
-            <div class="About shadow" id="aboutMe">
-                <div class="sectionHeader">
-                    <h1>RESUMEN</h1>
+            <section id="about" class="card aboutCard">
+                <div class="sectionHeader" id ="aboutHeader"><h1 id="aboutHeaderTitle" class="opac trans">Resumen</h1></div>
+                <div id="aboutContent" class="cardContent aboutContent opac trans">
+                    <p class="aboutPar">
+                        <span class="bullet">•</span> 
+                        Bachiller en Ingeniería Industrial y de Sistemas de la Universidad de Piura. 
+                        Poseo conocimientos en la plataforma de Microsoft Office, incluyendo Excel Avanzado con certificación;
+                        manejo de Bases de Datos con SQL; diseño web front-end con HTML5, CSS3; diseño asistido por computadora
+                        con AutoCAD y los lenguajes de programación JavaScript, Python. Además, he utilizado para mis proyectos
+                        el sistema de control de archivos Git en colaboración con GitHub.
+                        Cuento con un nivel de Inglés Avanzado, también con certificación.
+                    </p>
+                    <p class="aboutPar">
+                        <span class="bullet">•</span> 
+                        Tengo una gran capacidad de comunicación y liderazgo; y 
+                        un excelente desempeño cuando se trata de trabajar en equipo, 
+                        además de tener mucha ética profesional
+                    </p>
+                    <p class="aboutPar aboutPar3">
+                        <span class="bullet">•</span> 
+                        Me puedo considerar un autodidacta, por las habilidades que he adquirido sin la necesidad de un instructor.
+                        Tengo experiencia en el diseño y elaboración de proyectos.
+                    </p>
                 </div>
-                <div class="aboutContent">
-                    <p><span class="bullet">• </span>Egresado de la carrera de Ingeniería Industrial y de Sistemas de la Universidad de Piura. 
-                        Con conocimientos en la plataforma de Microsoft Office, incluyendo Excel Avanzado con certificación;
-                        manejo de Bases de Datos con MySQL; diseño web front-end con HTML5, CSS3; diseño asistido por computadora
-                        con AutoCAD y programación  orientada a objetos con JavaScript.
-                        Cuento con un nivel de Inglés Avanzado. Disponibilidad de viaje. </p> <br>
-
-                        <p><span class="bullet">• </span>Poseo una gran capacidad de comunicación y liderazgo.
-                            Tengo un buen desempeño cuando se trata de trabajar en equipo, 
-                            además de tener mucha ética profesional.</p><br>
-                        
-                        <p><span class="bullet">• </span>Tengo experiencia en el diseño y elaboración de proyectos.</p>
+            </section>
+            <div class="anchor" id="educationAnchor"></div>
+            <section id="education" class="card">
+                <div id="educationHeader" class="sectionHeader greenHeader"><h1 id="educationHeaderTitle" >Educación</h1></div>
+                <div id="educationContent" class="cardContent educationContent ">
+                    <div class="educationPlace">
+                    <h2 class="educationPlName">Colegio San Agustín de Chiclayo</h2>
+                        <p class="educationDescr">
+                            Educación Primaria y Secundaria <br> (2004-2014)
+                        </p>           
+                    </div>
+                    <div class="educationPlace educationPlace1">
+                        <h2 class="educationPlName">Universidad de Piura (UDEP)</h2>
+                        <p class="educationDescr">
+                            Ingeniería Industrial y de Sistemas <br>
+                            Bachiller (2015-2019)
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <div class="anchor" id="educationAnchor"></div>
-        <section id ="Educacion">
-            
-            <div class="Education shadow" id="education">
-                <div class="sectionHeader greenBackground">
-                    <h1>EDUCACIÓN</h1>
-                </div>
-                <div class="educationContent">
-                    <div class="educationPlace"><br> Colegio San Agustín de Chiclayo</div>
-                    <div class="educationPlaceContent">Educación Primaria y Secundaria <br> (2004-2014)</div><br>
-                    <div class="educationPlace">Universidad de Piura (UDEP)</div>
-                    <div class="educationPlaceContent">Ingeniería Industrial y de Sistemas<br>Egresado (2015-2019)</div> <br><br>
-                </div>
-
-            </div>
-        </section>
-        <section id="Habilidades">
+            </section>
             <div class="anchor" id="skillsAnchor"></div>
-            <div class="Skills shadow" id="skills">
-                <div class="sectionHeader orangeBackground">
-                    <h1>HABILIDADES</h1>
+            <section id="skills" class="card">
+                <div class="sectionHeader redHeader"><h1>Habilidades</h1></div>
+                <div class="cardContent skillsContent">
+                    <div class="skillsSection">
+                        <div class="skillContainer"><h2 class="skillsGroupTitle">Desarrollo</h2></div>
+                        <div class="skillContainer">
+                            <span class="skill">HTML5 & CSS3</span>
+                            <div class="barra">
+                                <progress value="90" max="100"></progress>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <span class="skill">JavaScript ES6</span>
+                            <div class="barra">
+                                <progress value="85" max="100"></progress>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <span class="skill">Base de Datos (SQL)</span>
+                            <div class="barra">
+                                <progress value="70" max="100"></progress>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <span class="skill">Diseño Web Responsive</span>
+                            <div class="barra">
+                                <progress value="90" max="100"></progress>
+                            </div>
+                        </div>
+                        <div class="skillContainer"><h2 class="skillsGroupTitle">Misceláneo</h2></div>
+                        <div class="skillContainer">
+                            <span class="skill">Adobe Premiere</span>
+                            <div class="barra">
+                                <progress value="60" max="100"></progress>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <span class="skill">AutoCAD</span>
+                            <div class="barra">
+                                <progress value="65" max="100"></progress>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <span class="skill">MS Excel</span>
+                            <div class="barra">
+                                <progress value="90" max="100"></progress>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <span class="skill">MS Word</span>
+                            <div class="barra">
+                                <progress value="80" max="100"></progress>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillsSection1">
+                        <h2 class="skillsGroupTitle">Idiomas</h2>
+                        <div class="languageContainer">
+                            <h3 class="langTitle">Inglés</h3>
+                            <h4 class="langLevel">Avanzado</h4>
+                            <p class="langDescr">
+                                Nivel B2 según MCER<br>
+                                (Clasificación 5 en Ingles B Superior en el Programa de Bachillerato Internacional)<br>
+                                Certificado PET de la Universidad de Cambridge
+                            </p>
+                        </div>
+                        <div class="languageContainer">
+                            <h3 class="langTitle">Español</h3>
+                            <h4 class="langLevel">Nativo</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="skillsContent">
-                    <div class="skillsGroupName">
-                        DESARROLLO
-                    </div>
-                    <div class="skills-Content">
-                        <div class="skill">HTML5 & CSS3</div> 
-                        <div class="barra">
-                            <progress value="90" max="100"></progress>
-                        </div>
-                    </div>
-                    <div class="skills-Content">
-                        <div class="skill">JavaScript ES6</div> 
-                        <div class="barra">
-                            <progress value="85" max="100"></progress>
-                        </div>
-                    </div>
-                    <div class="skills-Content">
-                        <div class="skill">Base de Datos (SQL)</div> 
-                        <div class="barra">
-                            <progress value="70" max="100"></progress>
-                        </div>
-                    </div>
-                    <div class="skills-Content">
-                        <div class="skill">Diseño Web Responsive</div> 
-                        <div class="barra">
-                            <progress value="80" max="100"></progress>
-                        </div>
-                    </div>
-                    <div class="skillsGroupName">
-                        VARIADO
-                    </div>
-                    <div class="skills-Content">
-                        <div class="skill">Adobe Premiere</div> 
-                        <div class="barra">
-                            <progress value="65" max="100"></progress>
-                        </div>
-                    </div>
-                    <div class="skills-Content">
-                        <div class="skill">AutoCAD</div> 
-                        <div class="barra">
-                            <progress value="60" max="100"></progress>
-                        </div>
-                    </div>
-                    <div class="skills-Content">
-                        <div class="skill">MS Excel</div> 
-                        <div class="barra">
-                            <progress value="90" max="100"></progress>
-                        </div>
-                    </div>
-                    <div class="skills-Content">
-                        <div class="skill">MS Word</div> 
-                        <div class="barra">
-                            <progress value="90" max="100"></progress>
-                        </div>
-                    </div>
-                </div>
-                <div class="skillsContent2">
-                    <div class="skillsGroupName prev">
-                        IDIOMAS
-                    </div>
-                    <div class="languagename">INGLÉS</div>
-                    <div class="languageContent">Avanzado<br> Nivel B2 según MCER <br>(Clasificación 5 en Ingles B
-                        Superior en el Programa de Bachillerato Internacional) <br> Certificado PET de la Universidad
-                        de Cambridge
-                    </div><br>
-                    <div class="languagename">ESPAÑOL</div>
-                    <div class="languageContent">Nativo 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="Experiencia">
+            </section>
             <div class="anchor" id="experienceAnchor"></div>
-            <div class="Experience shadow" id="experience">
-                <div class="sectionHeader redBackground">
-                    <h1>EXPERIENCIA</h1>
-                </div>
-                <div class="experienceContent">
-                    <div class="companyName"> KAR & MA S.A.C</div>
-                    <div class="companyPuesto">Asistente de Control de Calidad</div>
-                    <div class="companyDescription">Determinación Cuantitativa de Yodo en Sal
-                        <br> Medición de humedad de Materia Primaria
-                        <br> Apoyo en Formatos BPM 
-                        <br>(2019) 
+            <section id="experience" class="card ">
+                <div class="sectionHeader"><h1>Experiencia</h1></div>
+                <div class="cardContent experienceContent">
+                    <div class="experiencePeriod">
+                        <h2 class="positionName">Asistente de Control de Calidad</h2>
+                        <h3 class="companyName">KAR & MA S.A.C</h3>
+                        <h3 class="companyName">(2019)</h3>
+                        <ul class="descrExp">
+                        <li>-Determinación Cuantitativa de Yodo en Sal</li>
+                        <li>-Medición de humedad de Materia Primaria</li>
+                        <li>-Apoyo en Formatos BPM </li> 
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section id="Extra">
+            </section>
             <div class="anchor" id="extraAnchor"></div>
-            <div class="Extra shadow" id="extra">
-                <div class="sectionHeader greenBackground">
-                    <h1>EXTRA</h1>
-                </div>
-                <div class="extraContent">
-                    <div class="extraContent-content">
-                        <div class="extraContentH1">CERTIFICACIONES</div> 
-                        <div class="certificateGroup1">
-                            <p class="certificate"><span class="bullet">• </span>Responsive Web Design</p>
-                            <p class="certificate"><span class="bullet">• </span>JavaScript Algorithms and Data Structures</p>
-                            <p class="certificate"><span class="bullet">• </span>Pre Eliminary English Test</p>
-                            <p class="certificate"><span class="bullet">• </span>Excel Avanzado</p>
-                            <p class="certificate"><span class="bullet">• </span>Diploma del Bachillerato Internacional</p>
-                            <p class="certificate"><span class="bullet">• </span>Microsoft Office Expert Especialist</p>
-
-                            <div class="rigthCertificate">freeCodeCamp</div>
-                            <div class="rigthCertificate">freeCodeCamp</div>
-                            <div class="rigthCertificate">Cambridge Assessment English.<br> University of Cambridge</div>
-                            <div class="rigthCertificate">Colegio de Ingenieros del Perú</div>
-                            <div class="rigthCertificate">Organización del Bachillerato Internacional</div>
-                            <div class="rigthCertificate">CIBERTEC</div>
-                            
-                            
-                            
+            <section id="extra" class="card ">
+                <div class="sectionHeader greenHeader"><h1>Extra</h1></div>
+                <div class="cardContent extraContent">
+                    <div class="certSec">
+                        <h2 class="extraSecTitle">Certificaciones</h2>
+                        <div class="certContent">
+                            <span class="certName"><span class="bullet greenCol">•</span> Responsive Web Design</span>
+                            <span class="certName"><span class="bullet greenCol">•</span> JavaScript Algorithms and Data Structures</span>
+                            <span class="certName"><span class="bullet greenCol">•</span> Pre Eliminary English Test</span>
+                            <span class="certName"><span class="bullet greenCol">•</span> Excel Avanzado</span>
+                            <span class="certName"><span class="bullet greenCol">•</span> Diploma del Bachillerato Internacional</span>
+                            <span class="certName"><span class="bullet greenCol">•</span> Microsoft Office Expert Especialist</span>
+                            <span class="certName certEntity">freeCodeCamp</span>
+                            <span class="certName certEntity">freeCodeCamp</span>
+                            <span class="certName certEntity">Cambridge Assessment English<br> University of Cambridge</span>
+                            <span class="certName certEntity">Colegio de Ingenieros del Perú</span>
+                            <span class="certName certEntity">Organización del Bachillerato Internacional</span>
+                            <span class="certName certEntity">CIBERTEC</span>
                         </div>
                     </div>
-                    <div class="extraContent-content">
-                        <div class="extraContentH1">CAPACITACIONES</div>
-                        <div class="certificateGroup">
-                            <p class="capacitacion">III Conferencia Internacional de Calidad y Estadística Aplicada - UDEP. (2018)</p>
-                            <p class="capacitacion">Competencias en la Gestión de la Pyme - UDEP. (2018)</p>
-                            <p class="capacitacion">II Congreso Internacional de Ingeniería y Dirección de Proyectos - UDEP. (2019)</p>
-                        </div>
+                    <div class="capSec">
+                        <h2 class="extraSecTitle">Capacitaciones</h2>
+                        <ul class="capContent">
+                            <li class="capName"><span class="bullet greenCol">•</span>III Conferencia Internacional de Calidad y Estadística Aplicada<br>UDEP - (2018)</li>
+                            <li class="capName"><span class="bullet greenCol">•</span>Competencias en la Gestión de la Pyme<br>UDEP - (2018)</li>
+                            <li class="capName  last"><span class="bullet greenCol">•</span>II Congreso Internacional de Ingeniería y Dirección de Proyectos<br>UDEP - (2019)</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
             
+        </section>
     </body>
 </html>
