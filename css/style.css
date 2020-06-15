@@ -495,4 +495,7 @@ header{
 .redColor{
     color: var(--main-red)
 }
+.paddingTop{
+    padding-top: 1.5%;
+}
 
