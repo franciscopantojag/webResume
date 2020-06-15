@@ -48,7 +48,7 @@ const fun = () =>{
         aboutLink.classList.remove("redColor")
     }
     if(educationCard.getBoundingClientRect().top<=viewportHeight){
-        educationCard.classList.add("transSlideFromLeft")
+        educationCard.classList.add("transSlideFromBottom")
     }
     if(educationCard.getBoundingClientRect().top<=((0.4*(aboutCard.offsetHeight))+navBarHeight)){
         aboutLink.classList.remove("redColor");
@@ -58,7 +58,7 @@ const fun = () =>{
         educationLink.classList.remove("redColor")
     }
     if(skillsCard.getBoundingClientRect().top<=viewportHeight){
-        skillsCard.classList.add("transSlideFromRight")
+        skillsCard.classList.add("transSlideFromBottom")
     }
     if(skillsCard.getBoundingClientRect().top<=((0.4*(educationCard.offsetHeight))+navBarHeight)){
         educationLink.classList.remove("redColor");
@@ -75,7 +75,7 @@ const fun = () =>{
         experienceLink.classList.remove("redColor")
     }
     if(experienceCard.getBoundingClientRect().top<=viewportHeight){
-        experienceCard.classList.add("transSlideFromLeft")
+        experienceCard.classList.add("transSlideFromBottom")
     }
     if(extraCard.getBoundingClientRect().top<=((0.5*(experienceCard.offsetHeight))+navBarHeight)){
         experienceLink.classList.remove("redColor");
@@ -85,7 +85,7 @@ const fun = () =>{
         extraLink.classList.remove("redColor")
     }
     if(extraCard.getBoundingClientRect().top<=viewportHeight){
-        extraCard.classList.add("transSlideFromRight")
+        extraCard.classList.add("transSlideFromBottom")
     }
     
 }
