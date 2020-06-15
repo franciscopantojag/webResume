@@ -139,17 +139,19 @@ header{
     top:0;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .navLinks{
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .buttonContainer{
     padding: 0 1%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .headButton{
     text-decoration:none;
@@ -157,12 +159,17 @@ header{
     font-family:'Segoe UI',sans-serif;
     font-size:3.2vmin;
     font-weight:700;
-    transition:color 0.3s ease;
+    transition:color 0.3s ease, opacity 2s ease;
     animation: 2s appear ease;
-    opacity: 0.8;
+    opacity: 1;
 }
 .headButton:hover{
     color:var(--main-red)
+}
+@media (max-width:790px){
+    .headButton{
+        font-size:2.9vmin;
+    }  
 }
 /*Termina el NavBar*/
 .allSec{
@@ -481,6 +488,9 @@ header{
 .opac{
     opacity: 0.6;
     
+}
+.navBarOpac{
+    opacity:0.8;
 }
 .redColor{
     color: var(--main-red)
