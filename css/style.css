@@ -390,7 +390,7 @@ header{
 }
 @media (max-width: 900px) {
     .certContent{
-        margin: 0 1%;
+        margin: 2% 2%;
         column-gap: 1%;
     }
 }
@@ -412,7 +412,7 @@ header{
     align-items: center;
 }
 .capContent{
-    padding: 2% 1%;
+    padding: 2% 0;
     padding-bottom: 0;
 }
 .capName{
