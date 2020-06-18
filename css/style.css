@@ -129,6 +129,18 @@ header{
     }
     
 }
+@media (orientation: portrait){
+    #profile-picture{
+        width:35vmin;
+    }
+    .header-left-child{
+        font-size: 3.6vmin;
+    }
+    .name{
+        font-size: 9vmin;
+    }
+    
+}
 /*Termina el header*/
 /*NavBar*/
 #navBar{
@@ -234,7 +246,7 @@ header{
 }
 .aboutPar{
    padding-bottom: 1.5%;
-
+   font-size: 3.2vmin;
    line-height: 1.5;
    font-weight: 900;
 }
@@ -295,6 +307,7 @@ header{
     font-size: 5.2vmin;
     color: var(--dark-red);
     font-weight: 900;
+    text-align: center;
 }
 .skill{
     font-size: 3.9vmin;
@@ -323,9 +336,7 @@ header{
       
       }
     /*barritas*/
-.skillsGroupTitle{
-    text-align: center;
-}
+
 .languageContainer{
     text-align: center;
     padding: 1%;
@@ -337,6 +348,10 @@ header{
 .langLevel{
     font-weight: 700;
     font-size: 3.2vmin;
+}
+.langDescr{
+    font-size: 3.2vmin;
+    font-weight: 400;
 }
 /*Experiencia*/
 .experienceContent{
@@ -361,6 +376,7 @@ header{
 }
 .descrExp{
     margin: 0 1%;
+    font-size: 3.2vmin;
 }
 
 /*Extra*/
@@ -390,7 +406,7 @@ header{
 }
 @media (max-width: 900px) {
     .certContent{
-        margin: 2% 2%;
+        margin: 2%;
         column-gap: 1%;
     }
 }
