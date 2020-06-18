@@ -357,11 +357,8 @@ header{
 .experienceContent{
     padding: 4% 1%;
 }
-.experiencePeriod{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.descrHeader{
+    text-align: center;
 }
 .positionName{
     font-size: 5.2vmin;
@@ -374,8 +371,13 @@ header{
     font-weight: 700;
     padding-bottom: 0.4%;
 }
+.descrFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .descrExp{
-    margin: 0 1%;
     font-size: 3.2vmin;
 }
 
@@ -406,8 +408,14 @@ header{
 }
 @media (max-width: 900px) {
     .certContent{
-        margin: 2%;
-        column-gap: 1%;
+        margin: 2% 1%;
+        column-gap: 0.5%;
+    }
+}
+@media (orientation: portrait) {
+    .certContent{
+        margin: 2% 1%;
+        column-gap: 0.5%;
     }
 }
 .certName{
