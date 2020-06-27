@@ -1,7 +1,8 @@
 window.onscroll=()=>fun()
 
 const navBar=document.getElementById("navBar");
-const navBarHeight = navBar.offsetHeight
+const navBarHeight = navBar.offsetHeight;
+const navBarOffSetTop = navBar.offsetTop;
 
 const aboutHeaderTitle= document.getElementById("aboutHeaderTitle")
 const aboutContent = document.getElementById("aboutContent")
@@ -27,6 +28,11 @@ const viewportWidth = (window.innerWidth || document.documentElement.clientWidth
 const navBarButtom = document.getElementsByClassName("headButton")
 
 const fun = () =>{
+    if (window.pageYOffset >= navBarOffSetTop) {
+        navBar.classList.add("sticky");
+      } else {
+        navBar.classList.remove("sticky");
+      }
     aboutHeaderTitle.classList.remove("opac")
     aboutContent.classList.remove("opac")
     for(let i=0;i<navBarButtom.length;i++){
