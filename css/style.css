@@ -82,6 +82,9 @@ header{
 .phone{
     margin-bottom: 0;
 }
+.phoneNumber{
+    color: white;
+}
 .email a{
  color: white;
 }
