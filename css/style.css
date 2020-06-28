@@ -185,7 +185,7 @@ header{
     transition: all 0.3s;
 }
 .headButton:focus{
-    color: white;
+    color: green;
 }
 @media (max-width:790px){
     .headButton{
