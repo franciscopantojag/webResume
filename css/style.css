@@ -184,9 +184,7 @@ header{
     opacity: 1;
     transition: all 0.3s;
 }
-.headButton:focus{
-    color: green;
-}
+
 @media (max-width:790px){
     .headButton{
         font-size:2.9vmin;
@@ -543,4 +541,9 @@ header{
     position: sticky;
     z-index: 1;
     top: 0;
+}
+
+.headButton:focus{
+    color: green;
+    background-color: black;
 }
