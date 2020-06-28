@@ -543,7 +543,4 @@ header{
     top: 0;
 }
 
-.headButton:focus{
-    color: green;
-    background-color: black;
-}
+
