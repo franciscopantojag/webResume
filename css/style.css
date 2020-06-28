@@ -184,6 +184,9 @@ header{
     opacity: 1;
     transition: all 0.3s;
 }
+.headButton:focus{
+    color: white;
+}
 @media (max-width:790px){
     .headButton{
         font-size:2.9vmin;
