@@ -150,8 +150,8 @@ header{
     height:10vh;
     width:100%;
     z-index:1;
-   /* position: sticky;*/
-   /* top:0;*/
+    position: sticky;
+    top:0;
     background-color: black;
     display: flex;
     align-items: center;
@@ -537,10 +537,6 @@ header{
     margin-top:-10vh;
     background-color: black;
 }
-.sticky{
-    position: sticky;
-    z-index: 1;
-    top: 0;
-}
+
 
 
