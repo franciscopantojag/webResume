@@ -118,7 +118,7 @@ header{
 #profile-picture{
     width:40vmin;
     border-radius:100%;
-    opacity: 0.9;
+
 }
 @media (max-width:790px){
     #profile-picture{
